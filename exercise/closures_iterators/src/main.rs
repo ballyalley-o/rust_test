@@ -49,3 +49,4 @@ fn main() {
     // - Rewrite the code in #3 in functional style (without a for loop).  Hint: There are multiple
     // ways to accomplish this, but they all end with an iterator consumer.
 }
+
