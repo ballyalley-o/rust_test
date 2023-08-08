@@ -5,7 +5,6 @@ use aquarium::Dolphin;
 #[allow(clippy::vec_init_then_push)]
 
 use anyhow::Result;
-use aquarium::Dolphin;
 
 // (You already did #1 in lib.rs, right?)
 //
