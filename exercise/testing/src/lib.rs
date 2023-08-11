@@ -59,3 +59,16 @@ mod test {
 // Challenge: Create a benchmark that measures the speed of sploosh(8, 9, 10)
 // - Speed up the implementation of sploosh(8, 9, 10) without breaking the other tests.
 // - Hint: See Cargo.toml to get you started
+
+// benchmark testing
+#[cfg(test)]
+mod bench {
+    use super::*;
+    use test::Bencher;
+
+    #[bench]
+    fn bench_sploosh(b: &mut Bencher) {
+        b.iter(|| sploosh(8, 9, 10));
+    }
+}
+
