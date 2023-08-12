@@ -7,3 +7,4 @@ pub fn snuggle_benchmark(c: &mut Criterion) {
 
 criterion_group!(benches, snuggle_benchmark);
 criterion_main!(benches);
+
